@@ -18,7 +18,7 @@ class Calculator:
         else:
             return "Invalid operation"
 
-# Example usage
+
 calc = Calculator(10, 5)
 print("Add:", calc.operate("add"))
 print("Subtract:", calc.operate("subtract"))
