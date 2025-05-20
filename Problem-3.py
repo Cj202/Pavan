@@ -5,6 +5,6 @@ def generate_series(a):
             result.append(i)
     return result[:a if a % 2 == 1 else a - 1]
 
-# Example usage
+
 a = int(input("Enter a: "))
 print(generate_series(a))
